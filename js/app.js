@@ -20,6 +20,7 @@ fetch(`${baseUrl}/current.json?key=${apiKey}&q=colom`).then(res => res.json()).t
         <h2>${data.location.name}</h2>
         <img src="https://cdn-icons-png.flaticon.com/128/12607/12607703.png"alt="Weather icon">
         <p>${data.current.temp_c}°C</p>
+        
         <p>${data.current.humidity}%</p>
     </div>`   
 });
