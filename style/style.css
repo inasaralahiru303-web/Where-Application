@@ -20,6 +20,7 @@ h1 {
 }
 
 div{
+    
      background-color: white;
     width: 210px;
     height: 285px;
@@ -29,8 +30,8 @@ div{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 div1{
-    
-     background-color: white;
+    display:flex;
+    background-color: white;
     width: 210px;
     height: 285px;
     border-radius: 15px;
