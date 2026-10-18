@@ -19,11 +19,11 @@ const baseUrl="http://api.weatherapi.com/v1";
     document.getElementById("wetherInfo").innerHTML = 
     `
     <div1>
-        <h2>${data.location.name}</h2>
+        
         <img src="https://cdn-icons-png.flaticon.com/128/12607/12607703.png"alt="Weather icon">
         <p1>${data.current.temp_c}°C</p1>
-        <p>${data.current.humidity}%</p>
-    </div1>`
+        
+    </div>`
     
     
 });
