@@ -30,16 +30,21 @@ const baseUrl="http://api.weatherapi.com/v1";
 
         <div class="small-box">
             <h3>Humidity</h3>
+            <img src="https://cdn-icons-png.flaticon.com/128/12564/12564532.png" alt="" width="30%" higth="30%">
+
             <p>${data.current.humidity}%</p>
         </div>
 
         <div class="small-box">
             <h3>Wind Speed</h3>
+            <img src="https://cdn-icons-png.flaticon.com/128/3351/3351922.png" alt="" width="30%" higth="30%">
+
             <p>${data.current.wind_kph} km/h</p>
         </div>
 
         <div class="small-box">
             <h3>Feels Like</h3>
+            <img src="https://cdn-icons-png.flaticon.com/128/10033/10033983.png" alt="" width="30%" higth="30%">
             <p>${data.current.feelslike_c}°C</p>
         </div>
 
