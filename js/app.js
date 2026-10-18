@@ -23,15 +23,28 @@ const baseUrl="http://api.weatherapi.com/v1";
         <img src="https://cdn-icons-png.flaticon.com/128/12607/12607703.png"alt="Weather icon">
         <p1>${data.current.temp_c}°C</p1>
         
-    </div>`
-    document.getElementById("wetherInfo1").innerHTML = 
-     `
-    <div2>
-        
-        <img src="https://cdn-icons-png.flaticon.com/128/12607/12607703.png"alt="Weather icon">
-        <p1>${data.current.temp_c}°C</p1>
-        
-    </div>`
+    </div>`;
+
+    document.getElementById("wetherInfo1").innerHTML = `
+    <div class="small-weather-container">
+
+        <div class="small-box">
+            <h3>Humidity</h3>
+            <p>${data.current.humidity}%</p>
+        </div>
+
+        <div class="small-box">
+            <h3>Wind Speed</h3>
+            <p>${data.current.wind_kph} km/h</p>
+        </div>
+
+        <div class="small-box">
+            <h3>Feels Like</h3>
+            <p>${data.current.feelslike_c}°C</p>
+        </div>
+
+    </div>
+`;
     
 });
 }
