@@ -24,7 +24,14 @@ const baseUrl="http://api.weatherapi.com/v1";
         <p1>${data.current.temp_c}°C</p1>
         
     </div>`
-    
+    document.getElementById("wetherInfo1").innerHTML = 
+     `
+    <div2>
+        
+        <img src="https://cdn-icons-png.flaticon.com/128/12607/12607703.png"alt="Weather icon">
+        <p1>${data.current.temp_c}°C</p1>
+        
+    </div>`
     
 });
 }

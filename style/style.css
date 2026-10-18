@@ -28,6 +28,17 @@ font-size: 40px;
 div1{
     display: flex;
     justify-content: center; 
+    align-items:initial;
+    background-color: white;
+    height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+div2{
+    display: inline;
+    justify-content:end ;
     align-items: flex-start;
     background-color: white;
     height: 200px;
@@ -36,7 +47,6 @@ div1{
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
-
 
 
 .search-box {
