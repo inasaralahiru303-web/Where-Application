@@ -3,6 +3,7 @@
 }
 
 body {
+    
     margin: 10%;
     min-height: 100vh;
     background-color: #00ccff;
@@ -19,9 +20,8 @@ h1 {
     font-size: clamp(28px, 5vw, 48px);
 }
 
-div3{
-
-    display:flex;
+div1{
+    display:flex; 
     background-color: white;
     width: 210px;
     height: 285px;
