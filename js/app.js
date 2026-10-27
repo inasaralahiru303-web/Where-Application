@@ -57,14 +57,7 @@ function searchWeather() {
     </div>
 
      </div>
-     <div class="small-box">
-        <div class="weatherapi-weather-forecast awe_days_5 awecf" bis_skin_checked="1">
-        <div class="weatherapi-weather-forecast-day" bis_skin_checked="1"><div class="weatherapi-weathe-forecast-day-abbr" bis_skin_checked="1">Wed</div><div class="weatherapi-weather-forecast-day-abbr" bis_skin_checked="1"><div class="" bis_skin_checked="1"><img src="//cdn.weatherapi.com/weather/64x64/day/353.png" alt="Light rain shower" title="Light rain shower" loading="lazy" width="64px" height="64px"></div><!-- /.weatherapi-weather-todays-stats --></div><div class="weatherapi-weather-forecast-day-temp" bis_skin_checked="1">27.8<span> °c</span></div></div>
-        <div class="weatherapi-weather-forecast-day" bis_skin_checked="1"><div class="weatherapi-weathe-forecast-day-abbr" bis_skin_checked="1">Thu</div><div class="weatherapi-weather-forecast-day-abbr" bis_skin_checked="1"><div class="" bis_skin_checked="1"><img src="//cdn.weatherapi.com/weather/64x64/day/353.png" alt="Light rain shower" title="Light rain shower" loading="lazy" width="64px" height="64px"></div><!-- /.weatherapi-weather-todays-stats --></div><div class="weatherapi-weather-forecast-day-temp" bis_skin_checked="1">27.7<span> °c</span></div></div>
-        <div class="weatherapi-weather-forecast-day" bis_skin_checked="1"><div class="weatherapi-weathe-forecast-day-abbr" bis_skin_checked="1">Fri</div><div class="weatherapi-weather-forecast-day-abbr" bis_skin_checked="1"><div class="" bis_skin_checked="1"><img src="//cdn.weatherapi.com/weather/64x64/day/176.png" alt="Patchy rain nearby" title="Patchy rain nearby" loading="lazy" width="64px" height="64px"></div><!-- /.weatherapi-weather-todays-stats --></div><div class="weatherapi-weather-forecast-day-temp" bis_skin_checked="1">27.8<span> °c</span></div></div>
-        <div class="weatherapi-weather-forecast-day" bis_skin_checked="1"><div class="weatherapi-weathe-forecast-day-abbr" bis_skin_checked="1">Sat</div><div class="weatherapi-weather-forecast-day-abbr" bis_skin_checked="1"><div class="" bis_skin_checked="1"><img src="//cdn.weatherapi.com/weather/64x64/day/122.png" alt="Overcast" title="Overcast" loading="lazy" width="64px" height="64px"></div><!-- /.weatherapi-weather-todays-stats --></div><div class="weatherapi-weather-forecast-day-temp" bis_skin_checked="1">28.1<span> °c</span></div></div>
-        <div class="weatherapi-weather-forecast-day" bis_skin_checked="1"><div class="weatherapi-weathe-forecast-day-abbr" bis_skin_checked="1">Sun</div><div class="weatherapi-weather-forecast-day-abbr" bis_skin_checked="1"><div class="" bis_skin_checked="1"><img src="//cdn.weatherapi.com/weather/64x64/day/176.png" alt="Patchy rain nearby" title="Patchy rain nearby" loading="lazy" width="64px" height="64px"></div><!-- /.weatherapi-weather-todays-stats --></div><div class="weatherapi-weather-forecast-day-temp" bis_skin_checked="1">27.7<span> °c</span></div></div>
-    </div>
+     
 `;
 
         });
