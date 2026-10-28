@@ -22,8 +22,16 @@ function searchWeather() {
         
         <img src="https://cdn-icons-png.flaticon.com/128/12607/12607703.png"alt="Weather icon">
         <p1>${data.current.temp_c}°C</p1>
-        
+        <div>
+        <br><br><br>
+        <p4>${data.location.region}</p>
+        <p2>${data.location.country}</p>
+        <br>
+        <p2>${data.location.lat}</p>
+        <p2>${data.location.lon}</p>
+        </div>
     </div>`;
+    
 
             document.getElementById("wetherInfo1").innerHTML = `
     <div class="small-weather-container">
@@ -49,9 +57,9 @@ function searchWeather() {
         </div>
 
          <div class="small-box">
-            <h3>Feels Like</h3>
-            <img src="https://cdn-icons-png.flaticon.com/128/10033/10033983.png" alt="" width="30%" higth="30%">
-            <p>${data.current.feelslike_c}°C</p>
+            <h3>Heat index</h3>
+            <img src="https://cdn-icons-png.flaticon.com/128/3380/3380306.png" alt="" width="30%" higth="30%">
+            <p>${data.current.heatindex_c}°C</p>
        
 
     </div>
