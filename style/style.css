@@ -83,6 +83,7 @@ h1 {
 .search-box button:hover {
     background: #008ecc;
     transform: scale(1.05);
+    
 }
 /* Main weather background */
  #wetherInfo {
@@ -100,23 +101,18 @@ h1 {
     display:flex;
     
 } 
-p2 {
-    display: flex;
-    justify-content: center; 
-    align-items:initial;
-    color: aliceblue;
-    font-size: 20px;
-}
 
 
 /* Weather temperature */
 p1 {
+    color: aliceblue;
     font-family: "Bungee Spice", sans-serif;
     font-size: 40px;
 }
 
 /* small boxes out */
 .small-weather-container {
+    color: aliceblue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -125,6 +121,7 @@ p1 {
 
 /* small boxesඑක */
 .small-box{
+    color: aliceblue;
     width: 180px;
     min-height: 120px;
     gap: 100px;
